@@ -1,0 +1,43 @@
+
+
+Mon Apr  5 21:16:52 2021
+Command line: TestDisk
+
+TestDisk 7.1, Data Recovery Utility, July 2019
+Christophe GRENIER <grenier@cgsecurity.org>
+https://www.cgsecurity.org
+OS: Linux, kernel 5.6.6-300.fc32.x86_64 (#1 SMP Tue Apr 21 13:44:19 UTC 2020) x86_64
+Compiler: GCC 10.0
+ext2fs lib: 1.45.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: 20140608, curses lib: ncurses 6.1
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       625142448 sectors
+/dev/sda: user_max   625142448 sectors
+/dev/sda: native_max 625142448 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 320 GB / 298 GiB - CHS 38913 255 63, sector size=512 - WDC WD3200AAJS-56M0A0, S/N:WD-WMAV2JF68470, FW:01.03E01
+
+Partition table type (auto): Intel
+Disk /dev/sda - 320 GB / 298 GiB - WDC WD3200AAJS-56M0A0
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=255 sector=2
+BAD_RS LBA=2048 64512
+
+XFS Marker at 0/32/33
+BAD_RS LBA=2099200 16450498
+
+XFS Marker at 130/170/41
+
+XFS Marker at 20218/233/48
+ 1 * Linux                    0  32 33   130 170 40    2097152
+     XFS CRC enabled, blocksize=4096, 1073 MB / 1024 MiB
+ 2 P Linux                  130 170 41 19711 234 43  314572800
+     XFS CRC enabled, blocksize=4096, 161 GB / 150 GiB
+ 3 P Linux Swap           19711 234 44 20218 201 15    8142848
+     SWAP2 version 1, pagesize=4096, 4169 MB / 3976 MiB
+ 4 E extended             20218 201 16 38913  70  5  300326912
+ 5 L Linux                20218 233 48 38494 191 33  293601280
+     XFS CRC enabled, blocksize=4096, 150 GB / 140 GiB
+SIGINT detected! TestDisk has been killed.
